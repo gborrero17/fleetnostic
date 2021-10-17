@@ -36,7 +36,12 @@
     
     .navbar-contact {
         padding-top: 73px;
-        padding-right: 70px;
+    }
+    
+    @media (max-width: 1200px) {
+        .navbar-contact {
+            padding-right: 10%;
+        }
     }
     
     .primary-menu {
@@ -57,8 +62,18 @@
             width: 40%;
             height: auto;
         }
+        .navbar-contact {
+            display: none;
+        }
     }
     
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+    
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
     }

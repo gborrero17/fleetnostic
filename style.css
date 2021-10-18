@@ -78,6 +78,10 @@
         box-shadow: none;
     }
 
-    .testImageItem:hover .testImage {
+    .testImage {
         display: none;
+    }
+
+    .dropdown-image .testImage {
+        display: block!important;
     }

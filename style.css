@@ -78,11 +78,3 @@
         box-shadow: none;
     }
 
-    .dropdown-image {
-        display: none;
-    }
-    
-    .dropdown-image-item:hover img{
-        display: inline!important;
-    }
-

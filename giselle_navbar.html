@@ -10,23 +10,11 @@
     <script src="//code.jquery.com/jquery.min.js"></script>
 
     <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <!--    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script> -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-
-
-
     <script src="/js/tescor.js"></script>
 
     <!-- Optional JavaScript -->
@@ -69,8 +57,6 @@
 
         <div class="collapse navbar-collapse" id="navmenu">
             <div class="container">
-
-
                 <div class="navbar-contact col-12">
                     <p class="text-right">Email Fleetnostic (555) 555-5555</p>
                 </div>
@@ -83,37 +69,35 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">ABOUT US</a>
                         </li>
+                        <li class="dropdown">
+                            <a id="product-dropdown" img-src="./testImage.jpg" href="/products.php"
+                                class="dropdown-toggle" role="button" aria-haspopup="true"
+                                aria-expanded="false">PRODUCTS</a>
+                        </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 aria-haspopup="true" aria-expanded="false">
                                 PBBT SOLUTIONS
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item dropdown-image-item" href="#">14200
-                                    <img class="img-thumbnail ms-3 d-none" src="testImage.jpg" alt=""></a>
-                                <a class=" dropdown-item" href="#">20200
-                                    <img class="img-thumbnail d-none" src="testImage2.jpeg" alt=""></a>
-                                <a class="dropdown-item" href="#">3010</a>
-                                <a class="dropdown-item" href="#">Play Detector</a>
-                                <a class="dropdown-item" href="#">Lease/Audit</a>
-                            </ul>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="#">AIR SYSTEM EXPERT</a>
                         </li>
+
+                        <li class="dropdown" data-toggle="collapse" data-target="#navbar-collapse">
+                            <a id="service-dropdown"
+                                img-src="testImage2.jpeg"
+                                href="/services.php" class="dropdown-toggle" role="button" aria-haspopup="true"
+                                aria-expanded="false">SERVICES</a>
+                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 INDUSTRIED SERVED
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Enforcement/Roadside</a>
-                                <a class="dropdown-item" href="#">Fleet/Transit</a>
-                                <a class="dropdown-item" href="#">End-Of-Line</a>
-
-                            </div>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="#">CONTACT US</a>
@@ -126,7 +110,19 @@
     </nav>
 
     <div class="dropdown large-dropdown">
-        <ul class="col-md-offset-2 col-md-10 dropdown-menu products-menu">
+        <ul class="col-md-offset-2 col-md-10 dropdown-menu products-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li class="image"><img src="testImage.jpg" height="145"
+                width="260" /></li>
+            <a class="dropdown-item dropdown-image-item" href="#">14200
+                <img class="img-thumbnail ms-3 d-none" src="testImage.jpg" alt=""></a>
+            <a class=" dropdown-item" href="#">20200
+                <img class="img-thumbnail d-none" src="testImage2.jpeg" alt=""></a>
+            <a class="dropdown-item" href="#">3010</a>
+            <a class="dropdown-item" href="#">Play Detector</a>
+            <a class="dropdown-item" href="#">Lease/Audit</a>
+        </ul>
+
+        <!--  <ul class="col-md-offset-2 col-md-10 dropdown-menu products-menu">
             <li class="image"><img src="/images/pics/products/engineer-control-panel-260x145.jpg" height="145"
                     width="260" /></li>
             <li style="margin-top: 15px" class="dropdown">
@@ -152,68 +148,17 @@
                 </ul>
             </li>
 
-            <li class="dropdown">
-                <hr class="line" />
-                <a img-src="/images/pics/products/HVACCompLCTestBench/CLCTB1-260x145.jpg" class="dropdown-toggle"
-                    role="button" aria-haspopup="true" aria-expanded="false" href="/p/hvac-testing-equipment.php">HVAC
-                    Testing Equipment</a>
-                <ul style="margin-top:-55px" class="sub-dropdown-menu">
-                    <li><a img-src="/images/pics/products/HVACBaAmbCal/BAC1-260x145.jpg"
-                            href="/p/hte/balanced-ambient-calorimeter.php">Balanced Ambient Calorimeter</a></li>
-                    <li><a img-src="/images/pics/products/CompCalorimeter/CC2-260x145.jpg"
-                            href="/p/hte/compressor-calorimeter-hvac.php">Compressor Calorimeter</a></li>
-                    <li><a img-src="/images/pics/products/HVACCompLCTestBench/CLCTB1-260x145.jpg"
-                            href="/p/hte/compressor-life-cycle-test-bench.php">Compressor Life Cycle Test Bench</a></li>
-                    <li><a img-src="/images/pics/products/PhychroTestRooms/PTR1-260x145.jpg"
-                            href="/p/hte/psychrometric-test-rooms.php">Psychrometric Test Rooms</a></li>
-                    <li><a img-src="/images/pics/products/HVACSurfaceCal/SC1-260x145.jpg"
-                            href="/p/hte/surface-calorimeter.php">Surface Calorimeter</a></li>
-                    <li><a img-src="/images/pics/products/CodeTesterTunnels/CTT1-260x145.jpg"
-                            href="/p/hte/code-tester-tunnels-hvac.php">Code Tester Tunnels</a></li>
-                    <li><a img-src="/images/pics/products/HVACTrMntCondCham/TMCC1-260x145.jpg"
-                            href="/p/hte/trailer-mounted-test-chamber.php">Trailer-Mounted Conditioning Chamber</a></li>
-                    <li><a img-src="/images/pics/products/PharmTempHumidityCR/PTHCR1-260x145.jpg"
-                            href="/p/pharmaceutical.php">Environmental Rooms</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-            </li>
-            <li class="dropdown">
-                <hr class="line" />
-                <a img-src="/images/pics/products/PharmContrRooms/PCR1-260x145.jpg" class="dropdown-toggle"
-                    role="button" aria-haspopup="true" aria-expanded="false"
-                    href="/p/pharmaceutical.php">Pharmaceutical/Life Sciences Environmental Rooms</a>
-                <ul style="margin-top:-60px" class="sub-dropdown-menu">
-                    <li><a img-src="/images/pics/products/PharmTempHumidityCR/PTHCR1-260x145.jpg"
-                            href="/p/pte/environmental-test-chambers.php">Environmental Test Chambers</a></li>
-                    <li><a img-src="/images/pics/products/PharmFreezers/PF1-260x145.jpg"
-                            href="/p/pte/low-temp-freezers.php">Low Temp Freezers</a></li>
-                    <li><a img-src="/images/pics/products/PharmWalkInRooms/SWR1-260x145.jpg"
-                            href="/p/pte/specialty-environment-rooms.php">Specialty Environment Rooms</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <hr class="line" />
-                <a img-src="/images/pics/products/SolarPanelChamb/prod-line-260x145.jpg" class="dropdown-toggle"
-                    role="button" aria-haspopup="true" aria-expanded="false" href="/p/climatic-chambers.php"
-                    style="padding-top: 15px;">Standard Climatic Chambers</a>
-                <ul style="margin-top:-130px" class="sub-dropdown-menu">
-                    <li><a img-src="/images/pics/products/TempHumChamb/THC-260x145.jpg"
-                            href="/p/scc/Temperature-Humidity-Chamber.php">Temperature Humidity Chamber</a></li>
-                    <li><a img-src="/images/pics/products/SolarPanelChamb/TCSP-260x145.jpg"
-                            href="/p/scc/Test-Chamber-Solar-Panels.php">Test Chamber Solar Panels</a></li>
-                    <li><a img-src="/images/pics/products/WalkInChamb/WIC-260x145.jpg"
-                            href="/p/scc/Walk-In-Chamber.php">Walk In Chamber</a></li>
-                    <li><a img-src="/images/pics/products/AgreeChamb/AGREE-260x145.jpg"
-                            href="/p/scc/AGREE-Chamber.php">AGREE Chamber</a></li>
-                    <li><a img-src="/images/pics/products/ThermShockChamb/TSC-260x145.jpg"
-                            href="/p/scc/Thermal-Shock-Chamber.php">Thermal Shock Chamber</a></li>
-                    <li><a img-src="/images/pics/products/BatteryTestChamb/BTC-260x145.jpg"
-                            href="/p/scc/Battery-Test-Chamber.php">Battery Test Chamber</a></li>
-                </ul>
-            </li>
+        </ul> -->
+        <ul class="col-md-offset-2 col-md-10 dropdown-menu services-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li class="image"><img src="testImage2.jpeg"
+                height="145" width="260" /></li>
+            <a class="dropdown-item" href="#">Enforcement/Roadside</a>
+            <a class="dropdown-item" href="#">Fleet/Transit</a>
+            <a class="dropdown-item" href="#">End-Of-Line</a>
+
         </ul>
-        <ul class="col-md-offset-2 col-md-10 dropdown-menu services-menu">
+       
+        <!--  <ul class="col-md-offset-2 col-md-10 dropdown-menu services-menu">
             <li class="image"><img src="/images/pics/services/maintenance-contracts/maintenance-contracts-260x145.jpg"
                     height="145" width="260" /></li>
             <li style="margin-top: 15px" class="dropdown">
@@ -243,7 +188,7 @@
                     class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false"
                     href="/s/engineering-services.php">Engineering Services</a>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </body>
 

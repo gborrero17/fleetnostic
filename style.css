@@ -192,7 +192,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
 }
 
 
-/*Overwrite bottstrap scss*/
+/*Overwrite bootstrap scss*/
 
 .navbar a {
     text-decoration: none;

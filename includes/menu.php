@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#"><img src="/images/head-foot/fleetnostic-head.png" alt="Fleetnostic Logo"></a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu"
             aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <svg viewBox="0 0 100 80" width="35" height="40">
@@ -18,7 +18,7 @@
                     <p class="text-right">Email Fleetnostic (555) 555-5555</p>
                 </div>
 
-                <div class="primary-menu col-12 w-100 mt-5">
+                <div class="primary-menu col-12 w-100">
                     <ul class="navbar-nav nav-fill mr-auto w-100">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>

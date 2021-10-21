@@ -36,7 +36,6 @@
 
  <body>
    <div id="sticky">
-     <?php include 'includes/head.php'; ?>
 
      <?php include 'includes/menu.php'; ?>
    </div>

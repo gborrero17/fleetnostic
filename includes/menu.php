@@ -56,7 +56,7 @@
     <div class="dropdown large-dropdown">
 
         <ul class="col-md-offset-2 col-md-10 dropdown-menu solutions-menu">
-            <li class="image"><img src="/images/BM3010_PP0001.jpg" height="145" width="260" /></li>
+            <li class="image"><img src="/images/BM3010_PP0001.jpg" /></li>
             <li style="margin-top: 15px" class="dropdown ">
                 <hr class="line" />
                 <a img-src="/images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
@@ -86,7 +86,7 @@
         </ul>
 
         <ul class="col-md-offset-2 col-md-10 dropdown-menu served-menu">
-            <li class="image"><img src="/images/BM3010_PP0001.jpg" height="145" width="260" /></li>
+            <li class="image"><img src="/images/BM3010_PP0001.jpg" /></li>
             <li style="margin-top: 15px" class="dropdown">
                 <hr class="line" />
                 <a img-src="/images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"

@@ -44,7 +44,7 @@
        <p>Page Body </p>
      </div>
    </div>
-   <script src="/js/fleetnostic.js"></script>
+   <script src="./js/fleetnostic.js"></script>
    <?php include 'includes/footer.php'; ?>
 
 

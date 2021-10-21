@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#"><img src="/images/head-foot/fleetnostic-head.png" alt="Fleetnostic Logo"></a>
+        <a class="navbar-brand" href="#"><img src="images/head-foot/fleetnostic-head.png" alt="Fleetnostic Logo"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu"
             aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                             <a class="nav-link" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a id="solutions-dropdown" img-src="/images/BM3010_PP0001.jpg" href="#"
+                            <a id="solutions-dropdown" img-src="images/BM3010_PP0001.jpg" href="#"
                                 class="nav-link dropdown-toggle" role="button" aria-haspopup="true"
                                 aria-expanded="false">PBBT SOLUTIONS</a>
                         </li>
@@ -38,7 +38,7 @@
 
                         <li class="nav-item dropdown text-decoration-none" data-toggle="collapse"
                             data-target="#navbar-collapse">
-                            <a id="served-dropdown" img-src="/images/PBBT_011.jpg" href="#"
+                            <a id="served-dropdown" img-src="images/PBBT_011.jpg" href="#"
                                 class="nav-link dropdown-toggle" role="button" aria-haspopup="true"
                                 aria-expanded="false">INDUSTRIES SERVED</a>
                         </li>
@@ -56,50 +56,50 @@
     <div class="dropdown large-dropdown">
 
         <ul class="col-md-offset-2 col-md-10 dropdown-menu solutions-menu">
-            <li class="image"><img src="/images/BM3010_PP0001.jpg" /></li>
+            <li class="image"><img src="images/BM3010_PP0001.jpg" /></li>
             <li style="margin-top: 15px" class="dropdown ">
                 <hr class="line" />
-                <a img-src="/images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">14200</a>
             </li>
 
             <li class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">20200</a>
             </li>
             <li class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">3010</a>
             </li>
             <li class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">Play Detector</a>
             </li>
             <li class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">Lease/Audit</a>
             </li>
         </ul>
 
         <ul class="col-md-offset-2 col-md-10 dropdown-menu served-menu">
-            <li class="image"><img src="/images/BM3010_PP0001.jpg" /></li>
+            <li class="image"><img src="images/BM3010_PP0001.jpg" /></li>
             <li style="margin-top: 15px" class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">Enforcement/Roadside</a>
             </li>
             <li class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">Fleet/Transit</a>
             </li>
             <li class="dropdown">
                 <hr class="line" />
-                <a img-src="/images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
+                <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true"
                     aria-expanded="false" href="#">End-Of-Line</a>
             </li>
 

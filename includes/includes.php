@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="css/buttons.css">
 <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 <!--<link rel="stylesheet" href="https://use.typekit.net/kie0exc.css">-->
-<link rel="stylesheet" href="css/typekit.css">
-<link href="css/menu.css" rel="stylesheet" type="text/css">
+<!-- <link rel="stylesheet" href="css/typekit.css"> -->
+<!-- <link href="css/menu.css" rel="stylesheet" type="text/css"> -->
 <link rel="stylesheet" href="css/navbar.css">
 
 

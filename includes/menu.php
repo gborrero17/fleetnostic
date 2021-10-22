@@ -1,5 +1,11 @@
-<div id="navigation-menu">
-  <nav class="navbar navbar-expand-lg fixed-top">
+ <div id="navborder">
+   <div id="navigation-menu">
+
+ 
+    
+ 
+  <nav class="navbar navbar-expand-lg">
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
         <svg viewBox="0 0 100 80" width="35" height="40">
@@ -11,8 +17,8 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navmenu">
-      <div class="container-fluid">
-        <div class="primary-menu col-12 w-100">
+ 
+       
           <ul class="navbar-nav nav-fill mr-auto w-100">
             <li class="nav-item active">
               <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
@@ -36,11 +42,13 @@
               <a class="nav-link" href="#">CONTACT US</a>
             </li>
           </ul>
-        </div>
-      </div>
+    
+
 
     </div>
   </nav>
+  
+  </div>
 
   <div class="dropdown large-dropdown">
 

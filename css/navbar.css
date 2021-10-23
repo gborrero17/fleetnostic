@@ -381,10 +381,17 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .navbar {
         float: right;
         margin-right: 60px;
+        position: fixed;
     }
     .navbar button {
         position: fixed;
         top: 35px;
+    }
+    #navigation-menu {
+        position: fixed;
+    }
+    .navbar-toggler {
+        right: 60px;
     }
 }
 
@@ -392,9 +399,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .navbar {
         float: right;
         margin-right: 60px;
+        position: fixed;
     }
     .navbar button {
         position: fixed;
         top: 90px;
+    }
+    #navigation-menu {
+        position: fixed;
     }
 }

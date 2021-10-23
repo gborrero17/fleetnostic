@@ -378,4 +378,23 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .large-dropdown .dropdown-menu>li>a {
         font-size: 12px;
     }
+    .navbar {
+        float: right;
+        margin-right: 60px;
+    }
+    .navbar button {
+        position: fixed;
+        top: 35px;
+    }
+}
+
+@media (max-width: 440px) {
+    .navbar {
+        float: right;
+        margin-right: 60px;
+    }
+    .navbar button {
+        position: fixed;
+        top: 90px;
+    }
 }

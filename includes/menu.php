@@ -4,9 +4,9 @@
  
     
  
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-md">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
         <svg viewBox="0 0 100 80" width="35" height="40">
           <rect width="100" height="10" rx=10></rect>
@@ -69,11 +69,11 @@
       </li>
       <li class="dropdown">
         <hr class="line" />
-        <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="#">Play Detector</a>
+        <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="#">PLAY DETECTOR</a>
       </li>
       <li class="dropdown">
         <hr class="line" />
-        <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="#">Lease/Audit</a>
+        <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="#">LEASE/AUDIT</a>
       </li>
     </ul>
 

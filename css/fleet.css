@@ -4,6 +4,7 @@
 @import url("../webfonts/cabin/stylesheet.css");
 @import url("../webfonts/cabin_bold/stylesheet.css");
 @import url("../webfonts/cabin_medium/stylesheet.css");
+@import url("../webfonts/cabin_italic/stylesheet.css");
 /* CSS Document */
 
 
@@ -153,13 +154,13 @@ font-family: cabin, sans-serif;
 	max-width: 1600px;
 	padding: 0px 30px;
 }
-.Flex21600 {
+.section3Content .Flex21600 {
 	display: flex;
   flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start; 
 	max-width: 1600px;
-	padding: 0px 30px;
+	padding: 0px 30px 0px 0px;
 }
 .FlexStretch1600 {
 	display: flex;
@@ -229,6 +230,10 @@ font-family: cabin, sans-serif;
 	Margin-bottom: 30px;
 }
 
+#section1Content .font24 {
+    font-family: 'cabin italic';
+}
+
 #section2 {
 	display: flex;
     flex-direction: row;
@@ -236,7 +241,7 @@ font-family: cabin, sans-serif;
 	justify-content: center;
 	align-items: flex-start; 
 	width: 100%;
-	padding: 0px 0px;
+	padding: 40px 0px;
 }
 
 #section2 > div {
@@ -255,19 +260,18 @@ font-family: cabin, sans-serif;
 
 #section3 {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    padding: 100px 0px 100px 0px;
+    align-items: flex-start;
+	width: 100%;
+	padding: 40px 0px;
     background-color: #ebeceb;
-    text-align: center;
-    margin: 0px;
 }
 #section3Content {
-	max-width: 1200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+	max-width: 1600px;
+    margin-bottom: 40px;
 }
 #section3Content900 {
 	max-width: 900px;
@@ -346,6 +350,50 @@ font-family: cabin, sans-serif;
 	max-width: 500px;
 }
 
+/* carousel*/
+.carousel-item p {
+    font-family: 'cabin italic';
+    text-align: left;
+}
+.carousel-item h4 {
+    text-align: left;
+    color: #006269;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 100% !important;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15% !important;
+  margin-left: 15% !important;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 50px !important;
+  height: 5px !important;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #7A99AC !important;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+}
 
 /* end page sections */
 
@@ -695,7 +743,7 @@ div.animFade1 {
 p {
 	font-family: cabin, sans-serif;
 	color: #373A36;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 1px;
 }
@@ -1098,8 +1146,8 @@ a.menuAlt:active {
 	line-height: 37px;	
 }
 .font42 {
-	font-size: 38px;
-	line-height: 43px;	
+	font-size: 40px;
+	line-height: 46px;	
 }
 .font50 {
 	font-size: 25px;
@@ -1110,6 +1158,9 @@ a.menuAlt:active {
 	font-size: 35px;
 	line-height: 41px;
 	text-transform: uppercase;    
+}
+.carousel-indicators {
+ top: 105% !important;
 }
 
 }
@@ -1162,8 +1213,8 @@ a.menuAlt:active {
 	line-height: 38px;	
 }
 .font42 {
-	font-size: 28px;
-	line-height: 44px;	
+	font-size: 41px;
+	line-height: 47px;	
 }
 .font50 {
 	font-size: 30px;
@@ -1175,6 +1226,8 @@ a.menuAlt:active {
 	line-height: 46px;
 	text-transform: uppercase;    
 }
+.carousel-indicators {
+ top: 100% !important;
 }	
 
 
@@ -1205,6 +1258,9 @@ a.menuAlt:active {
 
 @media screen and (max-width:767px){
 
+.wideCol {
+	width: 100%;
+}	
 .twoCol {
 	width: 100%;
 }
@@ -1272,7 +1328,6 @@ a.menuAlt:active {
 	align-items: flex-start;  
 }
 	
-	
 }
 	
 		
@@ -1318,9 +1373,7 @@ a.menuAlt:active {
 
 
 @media screen and (max-width:991px){
-.wideCol {
-	width: 100%;
-}
+
 .threeCol2 {
 	width: 100%;
 }
@@ -1372,8 +1425,8 @@ a.menuAlt:active {
 	line-height: 40px;	
 }
 .font42 {
-	font-size: 40px;
-	line-height: 46px;	
+	font-size: 41px;
+	line-height: 47px;	
 }
 .font50 {
 	font-size: 40px;

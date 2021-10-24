@@ -137,6 +137,8 @@
     transition: width 0.5s ease-in-out;
     transition: 0.2s linear all;
 }
+
+
 /* .large-dropdown .line.selected {
 border-top: 2px solid darkblue!important;
 width: 90px;
@@ -166,6 +168,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .dropdown ul {
     height: 300px;
 }
+
+
 /*Overwrite bootstrap scss*/
 
 .navbar a {
@@ -415,6 +419,22 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 @media (max-width: 440px) {
     .navbar {
+        margin: 0px;
+        right: 0px;
+        position: fixed !important;
+        background-color: #006269;
+        top: 132px;
+    }
+}
+
+@media (max-width: 350px) {
+    .navbar-toggler {
+        right: 3px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar {
         float: right;
         margin-right: 60px;
         position: fixed;
@@ -426,21 +446,30 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navigation-menu {
         position: fixed;
     }
-    .navbar {
-        margin: 0px;
-        right: 0px;
-        position: fixed !important;
-        background-color: #006269;
-        top: 132px;
-    }
 }
 
 @media (max-width: 274px) {
-    .navbar {
-        top: 158px;
+    .navbar button {
+        top: 111px;
     }
     .navbar-toggler {
         right: 18px;
+    }
+    #navigation-menu>nav {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 237px) {
+    .navbar-toggler {
+        right: 50%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 170px) {
+    .navbar-toggler {
+        left: 1%;
     }
 }
 

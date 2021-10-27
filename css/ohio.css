@@ -1479,12 +1479,7 @@ div.animFade1 {
   flex-direction: column;
   justify-content: center;
 }
-#fleetHead {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-}
+
 #fleetLogo {
     max-width: 175px;
     height: auto;

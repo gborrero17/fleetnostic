@@ -12,9 +12,9 @@
 <script src="//cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js" ></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="js/fleet.js"></script>
 
-<link rel="stylesheet" href="css/fleet.css">
-<link rel="stylesheet" href="css/buttons.css">
+<link rel="stylesheet" href="css/ohio.css">
 <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 <!--<link rel="stylesheet" href="https://use.typekit.net/kie0exc.css">-->
 <link rel="stylesheet" href="css/typekit.css">

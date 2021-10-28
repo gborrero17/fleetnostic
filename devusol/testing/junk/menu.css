@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+
+.menuTop {
+    font-family: lato, sans-serif;
+    font-weight: 800;
+	font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1px;
+	text-decoration: none; 
+    padding: 0.0rem .9rem;
+	background-color: #006269;
+	margin: 0px;
+}
+.menuTopSubCat {
+	background-color:none;
+	color: #006269;
+    font-family: lato, sans-serif;
+    font-weight: 800;
+	font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1px;
+	text-decoration: none; 
+    padding: 0px 0px 0px 30px;
+	margin: 0px;
+}
+a.menuTop:link {
+    color: #244651;
+}
+a.menuTop:visited {
+	color: #244651;
+}
+a.menuTop:hover {
+	color:  #658638;
+}
+a.menuTop:active {
+	color: #658638;
+}
+a.menuTop:selected {
+	color: #658638;
+}
+.menuTopSub {
+    font-family: lato, sans-serif;
+    font-weight: 800;
+	font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1px;
+	text-decoration: none; 
+	height: 25px;
+	padding: 1px 10px 5px 10px;
+}
+a.menuTopSub:link {
+    color: #fff;
+}
+a.menuTopSub:visited {
+	color: #fff;
+}
+a.menuTopSub:hover {
+	color:  #2b4952;
+}
+a.menuTopSub:active {
+	color: #b3d699;
+}
+a.menuTopSub:selected {
+	color: #b3d699;
+}
+.menuTopSubDown {
+    font-family: lato, sans-serif;
+    font-weight: 800;
+	font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1px;
+	text-decoration: none; 
+    padding: 0.5rem 1rem;
+}
+a.menuTopSubDown:link {
+    color: #b0dde2;
+}
+a.menuTopSubDown:visited {
+	color: #2b0dde2;
+}
+a.menuTopSubDown:hover {
+	color: #2b4952;
+}
+a.menuTopSubDown:active {
+	color: #2b3815;
+}
+a.menuTopSubDown:selected {
+	color: #b3d699;
+}
+/*end links*/
+#wccMenuDiv {
+  	display: flex;
+  	justify-content: center;
+	background-color: #006269;
+	margin: 0px;
+	padding: 0px;
+    -webkit-box-shadow: 0px 5px 5px rgba(8,8,3,0.35);
+    box-shadow: 0px 5px 5px rgba(8,8,3,0.35);
+	z-index: 1000;
+}
+.wccMainMenu {
+	height: 27px;
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+.navbar-light .navbar-toggler {
+  color: none;
+  border-style: none;
+	padding: 0px;
+	margin:0px;
+	z-index: 1000;
+}
+.dropdown-menu {
+	background-color: #3e7a8d;
+	padding: 5px 5px;
+	z-index: 1000;
+}
+.navbar-collapse {
+background-color: none;
+}
+.navbar-toggler-icon {
+	background-image: url(http://www.betterdirection.com/wcc/images/structure/menu.png)!important;
+	width: 58px;
+	height: 22px;
+	padding: 0px;
+	margin: -10px 0px 0px 0px;
+	border-style: none;
+}
+.dropdown-submenu {
+  position: relative;
+	background-color: #3e7a8d;
+	z-index: 1000;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+	background-color: #d0dcdf;
+}
+
+@media screen and (max-width:991px){
+#wccMenuDiv {
+  	display: flex;
+  	justify-content: start;
+	background-color: #006269;
+	width: 100%;
+	z-index: 1000;
+}	
+.navbar-collapse {
+	background-color: #006269;
+}
+.nav-item {
+		width: 100%;
+		padding-top: 6px;
+		padding-bottom: 6px;
+	z-index: 1000;
+	}
+.menuTopSub {
+    font-size: 13px;
+    letter-spacing: normal;
+    padding: 1px 5px 5px 5px;
+	z-index: 1000;
+}
+.menuTop {
+    letter-spacing: normal;
+	z-index: 1000;
+	}
+}

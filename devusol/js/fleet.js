@@ -47,11 +47,13 @@ window.onload = function (e) {
          $("a#served-dropdown").attr('img-src', $(this).attr('img-src'));
       }
       $(this).siblings('.sub-dropdown-menu').addClass('open');
-      console.log($(this).siblings('.line'));
-      $(this).siblings('.line').addClass('selected');
+      //console.log($(this).siblings('h2').css('display', 'inline'););
+      $(this).siblings('.subtext').addClass('d-inline');
+      // $(this).siblings('.line').addClass('selected');
       $(this).parent().siblings('.dropdown').css('pointer-events', 'none');
    }).mouseleave(function () {
       $('.large-dropdown .dropdown').css('pointer-events', 'auto');
+      $('.subtext').removeClass('d-inline');
    });
 
    $(".large-dropdown a.dropdown-toggle").hover(function () {

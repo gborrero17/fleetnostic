@@ -427,36 +427,18 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
-@media (max-width: 350px) {
-    .navbar-toggler {
-        right: 3px;
-    }
-}
-
 @media (max-width: 320px) {
     .navbar {
-        float: right;
-        margin-right: 60px;
-        position: fixed;
-    }
-    .navbar button {
-        position: fixed;
-        top: 90px;
-    }
-    #navigation-menu {
-        position: fixed;
+        right: 100px;
     }
 }
 
 @media (max-width: 274px) {
     .navbar button {
-        top: 111px;
+        top: 60px;
     }
     .navbar-toggler {
-        right: 18px;
-    }
-    #navigation-menu>nav {
-        padding: 0px;
+        right: 60px;
     }
 }
 

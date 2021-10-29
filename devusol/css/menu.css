@@ -319,10 +319,23 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -54px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 416px;
+        margin-left: -50px;
     }
     .large-dropdown .dropdown-menu>li>a {
         font-size: 16px;
+    }
+    .dropdown-menu {
+        min-width: 45rem !important;
+    }
+    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu>li.image {
+        margin-top: 20px;
+        position: static;
+        display: block;
+        float: left;
+        margin-left: 45px;
+    }
+    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu.dropdown-menu {
+        text-align: right !important;
     }
 }
 
@@ -334,7 +347,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -20%;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 77%;
+        margin-left: -29%;
     }
 }
 
@@ -346,7 +359,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -48%;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 93%;
+        margin-left: -103%;
     }
     .navbar-nav,
     .dropdown {
@@ -359,7 +372,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 @media (max-width: 935px) {
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 86%;
+        margin-left: -53%;
+    }
+    .dropdown-menu {
+        min-width: 35rem !important;
     }
 }
 
@@ -408,12 +424,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .large-dropdown {
         width: 800px;
     }
-    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
-        margin-left: 95px;
-    }
-    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 561px;
-    }
 }
 
 @media (max-width: 440px) {
@@ -423,6 +433,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         position: fixed !important;
         background-color: #006269;
         top: 132px;
+    }
+    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
+        margin-left: 95px;
+    }
+    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
+        margin-left: 561px;
     }
 }
 

@@ -337,6 +337,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu.dropdown-menu {
         text-align: right !important;
     }
+    #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu p {
+        float: left !important;
+        z-index: 100;
+        left: 45px;
+        right: auto !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -496,4 +502,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }
+}
+
+#navborder p {
+    float: right;
+    color: white;
+    z-index: 100;
+    position: fixed;
+    bottom: 8px;
+    right: 45px;
 }

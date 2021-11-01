@@ -33,9 +33,12 @@
 
   <div id="section1Video">	 
   
+  <div id="coverVideo">
    <video autoplay muted loop id="myVideo">
 <source src="/video/ohioVideo.mp4" type="video/mp4"></video>
+  </div>
 <div id="section1ContentVideo"> 
+
   <h1 class="text-center"><span class="font60caps ">Website Title Goes Here</span><br><span class="font24">Tagline, slider text or plain copy</span></h1>
     </div>
 </div>   

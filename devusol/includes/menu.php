@@ -55,7 +55,7 @@
 
     <ul class="col-md-offset-2 col-md-10 dropdown-menu solutions-menu">
       <li class="image"><img src="images/BM3010_PP0001.jpg" /></li>
-      <li style="margin-top: 15px" class="dropdown ">
+      <li class="dropdown ">
         <hr class="line" />
         <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="pbbt-14200.php">14200</a>
         <p class="subtext d-none">sub-text 1</p>

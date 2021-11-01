@@ -28,13 +28,21 @@
 <?php include 'includes/head.php'; ?>     
 <?php include 'includes/menu.php'; ?>
   </div>
-<div id="main">       
+<div id="main">      
 
-<div id="section1">	 
-   <div id="section1Content"> 
+
+  <div id="section1Video">	 
+  
+   <video autoplay muted loop id="myVideo">
+<source src="/video/ohioVideo.mp4" type="video/mp4"></video>
+<div id="section1ContentVideo"> 
   <h1 class="text-center"><span class="font60caps ">Website Title Goes Here</span><br><span class="font24">Tagline, slider text or plain copy</span></h1>
     </div>
-</div>     
+</div>   
+
+<div id="concaveBorder">
+    <svg width="100%" height="75px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g fill="white"><path d="M1280 140V0S993.46 140 640 139 0 0 0 0v140z"/></g></svg>
+    </div>
     
 <div id="section2">
      <div id="section2Content">   

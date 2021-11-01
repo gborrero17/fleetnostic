@@ -416,7 +416,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         right: 0px;
         position: fixed !important;
         background-color: #006269;
-        top: 132px;
+        top: 100px;
     }
     .nav-item {
         display: inline;
@@ -430,6 +430,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .large-dropdown {
         width: 800px;
     }
+    #navborder {
+        height: 15px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -438,7 +441,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         right: 0px;
         position: fixed !important;
         background-color: #006269;
-        top: 132px;
+        top: 100px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
         margin-left: 95px;

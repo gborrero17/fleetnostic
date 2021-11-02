@@ -6,6 +6,10 @@
     color: white;
 }
 
+.navbar .active{
+    color: white;
+}
+
 .navbar p {
     color: white!important;
 }

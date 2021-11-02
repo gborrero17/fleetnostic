@@ -21,7 +21,7 @@
 
         <ul class="navbar-nav nav-fill mr-auto w-100">
           <li class="nav-item active">
-            <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.php">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.php">ABOUT US</a>

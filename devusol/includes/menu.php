@@ -28,15 +28,26 @@
           </li>
           <li class="nav-item dropdown">
             <a id="solutions-dropdown" img-src="images/BM3010_PP0001.jpg" href="pbbt-solutions.php" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PBBT SOLUTIONS</a>
-
+            <ul class="toggled-dropdown d-none">
+              <li><a href="#">one</a></li>
+              <li><a href="#">two</a></li>
+              <li><a href="#">three</a></li>
+              <li><a href="#">four</a></li>
+              <li><a href="#">five</a></li>
+            </ul>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" href="air-system-expert.php">AIR SYSTEM EXPERT</a>
           </li>
 
-          <li class="nav-item dropdown text-decoration-none" data-toggle="collapse" data-target="#navbar-collapse">
+          <li class="nav-item dropdown " data-toggle="collapse" data-target="#navbar-collapse">
             <a id="served-dropdown" img-src="images/PBBT_011.jpg" href="industries-served.php" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">INDUSTRIES SERVED</a>
+            <ul class="toggled-dropdown d-none">
+              <li> <a href="#">six</a> </li>
+              <li> <a href="#">seven</a> </li>
+              <li> <a href="#">eight</a> </li>
+            </ul>
           </li>
 
           <li class="nav-item ">
@@ -47,6 +58,8 @@
 
 
       </div>
+
+
     </nav>
 
   </div>

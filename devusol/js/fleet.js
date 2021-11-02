@@ -9,12 +9,9 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
 
 window.onload = function (e) {
     /* $(".slider .content").addClass('slide-in'); */
-    let activePage = location.pathname;
-    //console.log(location.pathname.slice(1));
-    // console.log($('.navbar a'));
+
     $('.navbar a').each(function () {
-        if ($(this).attr('href') == location.pathname.slice(1)) {
-            // console.log("found", $(this).attr('href'));
+        if ($(this).attr('href') == location.pathname.slice(location.pathname.lastIndexOf("/") + 1)) {
             $(this).addClass('active');
         }
     })

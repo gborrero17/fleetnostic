@@ -468,6 +468,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
         margin-left: 561px;
     }
+    #concaveBorder {
+        margin-top: -27px !important;
+    }
 }
 
 @media (max-width: 320px) {

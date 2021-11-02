@@ -29,11 +29,11 @@
           <li class="nav-item dropdown">
             <a id="solutions-dropdown" img-src="images/BM3010_PP0001.jpg" href="pbbt-solutions.php" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PBBT SOLUTIONS</a>
             <ul class="toggled-dropdown d-none">
-              <li><a href="#">one</a></li>
-              <li><a href="#">two</a></li>
-              <li><a href="#">three</a></li>
-              <li><a href="#">four</a></li>
-              <li><a href="#">five</a></li>
+              <li><a class="dropdown nav-link" href="#">14200</a></li>
+              <li><a class="dropdown nav-link" href="#">20200</a></li>
+              <li><a class="dropdown nav-link" href="#">3010</a></li>
+              <li><a class="dropdown nav-link" href="#">PLAY DETECTOR</a></li>
+              <li><a class="dropdown nav-link" href="#">LEASE/AUDIT</a></li>
             </ul>
           </li>
 
@@ -44,9 +44,9 @@
           <li class="nav-item dropdown " data-toggle="collapse" data-target="#navbar-collapse">
             <a id="served-dropdown" img-src="images/PBBT_011.jpg" href="industries-served.php" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">INDUSTRIES SERVED</a>
             <ul class="toggled-dropdown d-none">
-              <li> <a href="#">six</a> </li>
-              <li> <a href="#">seven</a> </li>
-              <li> <a href="#">eight</a> </li>
+              <li> <a class="dropdown nav-link" href="#">ENFORCEMENT/ROADSIDE</a> </li>
+              <li> <a class="dropdown nav-link" href="#">FLEET/TRANSIT</a> </li>
+              <li> <a class="dropdown nav-link" href="#">END-OF-LINE</a> </li>
             </ul>
           </li>
 
@@ -100,17 +100,17 @@
       <li class="image"><img src="images/BM3010_PP0001.jpg" /></li>
       <li style="margin-top: 15px" class="dropdown">
         <hr class="line" />
-        <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="enforcement-roadside.php">Enforcement/Roadside</a>
+        <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="enforcement-roadside.php">ENFORCEMENT/ROADSIDE</a>
         <p class="subtext d-none">sub-text 6</p>
       </li>
       <li class="dropdown">
         <hr class="line" />
-        <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="fleet-transit.php">Fleet/Transit</a>
+        <a img-src="images/BM3010_PP0001.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="fleet-transit.php">FLEET/TRANSIT</a>
         <p class="subtext d-none">sub-text 7</p>
       </li>
       <li class="dropdown">
         <hr class="line" />
-        <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="end-of-line.php">End-Of-Line</a>
+        <a img-src="images/PBBT_011.jpg" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="end-of-line.php">END-OF-LINE</a>
         <p class="subtext d-none">sub-text 8</p>
       </li>
 

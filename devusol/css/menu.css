@@ -257,7 +257,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .dropdown {
     font-family: cabin, sans-serif;
     color: #fff;
-    max-height: 192px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -418,6 +417,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         background-color: #006269;
         top: 100px;
     }
+
+    .toggled-dropdown:hover > .navbar {
+        padding-bottom: 131px !important;
+    }
+
     .nav-item {
         display: inline;
     }
@@ -433,6 +437,22 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navborder {
         height: 15px;
     }
+
+    .toggled-dropdown {
+        list-style: none;
+        
+    }
+
+    #navmenu > ul > li:nth-child(3) > ul {
+        height: 191px;
+    }
+
+    #navmenu > ul > li:nth-child(5) > ul {
+        height: 112px;
+    }
+
+
+
 }
 
 @media (max-width: 440px) {

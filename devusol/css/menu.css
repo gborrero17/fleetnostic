@@ -248,7 +248,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #navborder {
     background-color: #003865;
     border-style: solid;
-    border-width: 0 0 13px 0;
+    border-width: 0 0 6px 0;
     border-color: #006269;
     height: 45px;
 }
@@ -264,22 +264,26 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
-    margin-left: 171px;
+    margin-left: 44px;
 }
 
 #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-    margin-left: 634px;
+    margin-left: 510px;
+}
+
+.large-dropdown {
+    width: 700px;
 }
 
 @media (max-width: 1900px) {
     .large-dropdown {
-        width: 800px;
+        width: 700px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
         margin-left: 95px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 561px;
+        margin-left: 509px;
     }
 }
 
@@ -297,13 +301,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 @media (max-width: 1500px) {
     .large-dropdown {
-        width: 610px;
+        width: 710px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
         margin-left: 0px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: 466px;
+        margin-left: 494px;
     }
     .large-dropdown .dropdown-menu>li>a {
         font-size: 12px;
@@ -318,13 +322,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -54px;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: -50px;
+        margin-left: 42px;
     }
     .large-dropdown .dropdown-menu>li>a {
         font-size: 16px;
     }
     .dropdown-menu {
-        min-width: 45rem !important;
+        min-width: 39rem !important;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu>li.image {
         margin-top: 20px;
@@ -339,7 +343,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu p {
         float: left !important;
         z-index: 100;
-        left: 45px;
+        left: 120px;
         right: auto !important;
     }
 }
@@ -352,7 +356,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -20%;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: -29%;
+        margin-left: -7%;
     }
 }
 
@@ -364,7 +368,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -48%;
     }
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
-        margin-left: -103%;
+        margin-left: -67%;
     }
     .navbar-nav,
     .dropdown {
@@ -380,7 +384,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         margin-left: -53%;
     }
     .dropdown-menu {
-        min-width: 35rem !important;
+        min-width: 36rem !important;
     }
 }
 
@@ -417,11 +421,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         background-color: #006269;
         top: 100px;
     }
-
-    .toggled-dropdown:hover > .navbar {
+    .toggled-dropdown:hover>.navbar {
         padding-bottom: 131px !important;
     }
-
     .nav-item {
         display: inline;
     }
@@ -437,22 +439,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navborder {
         height: 15px;
     }
-
     .toggled-dropdown {
         list-style: none;
-        
     }
-
-    #navmenu > ul > li:nth-child(3) > ul {
+    #navmenu>ul>li:nth-child(3)>ul {
         height: 191px;
     }
-
-    #navmenu > ul > li:nth-child(5) > ul {
+    #navmenu>ul>li:nth-child(5)>ul {
         height: 112px;
     }
-
-
-
 }
 
 @media (max-width: 440px) {
@@ -533,5 +528,5 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     z-index: 100;
     position: fixed;
     bottom: 8px;
-    right: 45px;
+    right: 130px;
 }

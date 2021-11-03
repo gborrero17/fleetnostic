@@ -35,7 +35,7 @@
   
   <div id="coverVideo">
    <video autoplay muted loop id="myVideo">
-<source src="/video/ohioVideo.mp4" type="video/mp4"></video>
+<source src="video/ohioVideo.mp4" type="video/mp4"></video>
   </div>
 <div id="section1ContentVideo"> 
 

@@ -454,6 +454,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
+@media (max-width: 750px) {
+    
+    .large-dropdown{
+    display:none;
+    }
+}
+
 @media (max-width: 440px) {
     .navbar {
         margin: 0px;
@@ -473,9 +480,17 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 431px) {
     .navbar {
-        right: 100px;
+        margin-top: 23px !important;
+    }
+}
+
+
+@media (max-width: 309px) {
+    .navbar {
+        margin-top: 35px !important;
     }
 }
 

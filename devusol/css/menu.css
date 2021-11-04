@@ -6,7 +6,7 @@
     color: white;
 }
 
-.navbar .active{
+.navbar .active {
     color: white;
 }
 
@@ -362,62 +362,77 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
         margin-left: -7%;
     }
+    #concaveBorder {
+        margin-top: -27px !important;
+    }
 }
 
+
+}
 @media (max-width: 992px) {
     .large-dropdown {
         width: 250px;
     }
+    
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
         margin-left: -48%;
     }
+    
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
         margin-left: -67%;
     }
+    
     .navbar-nav,
     .dropdown {
         font-size: 12px;
     }
+    
     .large-dropdown .dropdown-menu>li>a {
         font-size: 12px;
     }
 }
-
 @media (max-width: 935px) {
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
         margin-left: -53%;
     }
+    
     .dropdown-menu {
         min-width: 36rem !important;
     }
 }
-
 @media (max-width: 767px) {
     .dropdown-menu {
         display: inline-block !important;
     }
+    
     .navbar-nav,
     .dropdown {
         font-size: 12px;
     }
+    
     .large-dropdown .dropdown-menu>li>a {
         font-size: 12px;
     }
+    
     .navbar {
         float: right;
         margin-right: 60px;
         position: fixed;
     }
+    
     .navbar button {
         position: fixed;
         top: 35px;
     }
+    
     #navigation-menu {
         position: fixed;
     }
+    
     .navbar-toggler {
         right: 30px;
     }
+    
     .navbar {
         margin: 0px;
         right: 0px;
@@ -425,40 +440,47 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         background-color: #006269;
         top: 100px;
     }
+    
     .toggled-dropdown:hover>.navbar {
         padding-bottom: 131px !important;
     }
+    
     .nav-item {
         display: inline;
     }
+    
     .nav-link {
         text-align: right;
     }
+    
     .dropdown {
         margin: 0px!important;
     }
+    
     .large-dropdown {
         width: 800px;
     }
+    
     #navborder {
         height: 15px;
     }
+    
     .toggled-dropdown {
         list-style: none;
     }
+    
     #navmenu>ul>li:nth-child(3)>ul {
         height: 191px;
     }
+    
     #navmenu>ul>li:nth-child(5)>ul {
         height: 112px;
     }
-
-    .large-dropdown{
-        display:none;
-        }
+    
+    .large-dropdown {
+        display: none;
+    }
 }
-
-
 @media (max-width: 440px) {
     .navbar {
         margin: 0px;
@@ -467,81 +489,83 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         background-color: #006269;
         top: 100px;
     }
+    
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.solutions-menu {
         margin-left: 95px;
     }
+    
     #navborder>div.dropdown.large-dropdown>ul.col-md-offset-2.col-md-10.dropdown-menu.served-menu {
         margin-left: 561px;
     }
+    
     #concaveBorder {
         margin-top: -27px !important;
     }
 }
-
-
 @media (max-width: 416px) {
     .navbar {
         margin-top: 23px !important;
     }
 }
-
 @media (max-width: 291px) {
     .navbar {
         margin-top: 35px !important;
         margin-right: 11% !important;
     }
 }
-
 @media (max-width: 274px) {
     .navbar button {
         top: 60px;
     }
+    
     .navbar-toggler {
         right: 60px;
     }
 }
-
 @media (max-width: 237px) {
     .navbar-toggler {
         right: 50%;
         left: 50%;
     }
 }
-
 @media (max-width: 170px) {
     .navbar-toggler {
         left: 1%;
     }
 }
-
 @media (min-width: 768px) {
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+    
     .navbar-expand-custom .navbar-nav {
         flex-direction: row;
     }
+    
     .navbar-expand-custom .dropdown-menu {
         position: absolute;
     }
+    
     .navbar-expand-custom .nav-link {
         padding-right: .5rem;
         padding-left: .5rem;
     }
+    
     .navbar-expand-custom>.container {
         flex-wrap: nowrap;
     }
+    
     .navbar-expand-custom .navbar-collapse {
         display: flex!important;
         flex-basis: auto;
     }
+    
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }
 }
-
 #navborder p {
     float: right;
     color: white;

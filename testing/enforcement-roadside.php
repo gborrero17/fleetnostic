@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
     <!-- Google analytics goes here-->
-    <title>Fleetnostic</title>
+    <title>FleetScore</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/> 
              
@@ -26,7 +26,7 @@
 <div id="main">  
     
     <!-- Hero -->
-   <div id="placeholderHero" class="ohioHero">	 
+   <div id="enforcementHero" class="ohioHero">	 
   <h1 class="text-center"><span class="font50caps">Industries Served - Enforcement</span></h1>
     </div>  
     
@@ -47,7 +47,7 @@
     
     <!-- pbbt section 2 -->
     <div class="basicTextSect mx-auto d-block">
-    <p>When used in a roadside inspection, LINK Ohio’s (Substitute for Brand Name) PBBT tester will ensure an easy-to-use solution and single-user operation. LINK offers both permanent and portable roller brake testers to the roadside enforcement industry, bringing repeatable and reliable tests to safety lane inspections.</p> 
+    <p>When used in a roadside inspection, LINK's PBBT tester will ensure an easy-to-use solution and single-user operation. LINK offers both permanent and portable roller brake testers to the roadside enforcement industry, bringing repeatable and reliable tests to safety lane inspections.</p> 
 <p>Our equipment uses hand-held wireless remote controls for simple operation. The electric drive motors are both easy to maintain and have no hydraulic leaking. A digital or electro-mechanical display will provide step-by-step operator and driver instructions, providing clear and immediate test results. If you need to retest a single axle, you are a simple button push away.
 </p>
         </div> 
@@ -75,48 +75,22 @@
         <li>Integrated ABS Inspection (same as manufacturer)</li>
         <li>Custom software</li>
       </ul>
+                
+<h3 class="bulletHd">Key Benefits</h3>
+      <ul>
+        <li>Objective results in less than 30 seconds per axle</li>
+        <li>Provides easier, safer method of inspecting specialty vehicles like low ground clearance units, waste and refuse, heavy equipment, and livestock haulers</li>
+        <li>Capable of reading diagnostic trouble codes</li>
+      </ul>
         </div></div>
        
         <div class="bP2">
-           <img src="images/ImgResponsive_Placeholder.png" class="img-fluid" alt="Model 14200 Roller Brake Tester"> 
+           <img src="images/pics/enforcement-1.jpg" class="img-fluid" alt="Fleetscore offers portable and permanent brake testing solutions to Law Enforcement fleets"> 
           </div>
             
         </div>
         </div> 
-  
-    
-    <!-- download form -->
-<div id="placeholderForm" class="dwnldBroch">
-    <div class="dwnldBrochContent mx-auto d-block">
-        <h2 class="font42">Download the Brochure
-    </h2>
-            <div>
-              <form> 
-                  <div class="formThreeCol">
-                  <div class="form-group threeColForm">
-                  <label for="First Name">First Name</label>
-                  <input type="text" class="form-control" id="fleetFirst" placeholder="">
-                  </div>
-                  <div class="form-group threeColForm">
-                  <label for="Last Name">Last Name</label>
-                  <input type="text" class="form-control" id="fleetLast" placeholder="">
-                  </div>
-                <div class="form-group threeColForm">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="fleetEmail" placeholder="">
-                  </div>
-                <div class="form-group oneCol">
-                  <label for="Industry">Industry</label>
-                  <input type="text" class="form-control" id="fleetIndustry" placeholder="">
-                </div></div>
-                  <div id="formSubmit">
-                      <div class="fiveCol">
-                  <button id="fleetSubmit" type="submit" class="btn btn-primary">Submit</button></div></div>
-              </form>
-            </div>
-            <p class="paddingTop30 blue1">LINK needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.</p>
-        </div>
-    </div>
+
     
     
     </div>

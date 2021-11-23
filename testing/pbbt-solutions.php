@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
     <!-- Google analytics goes here-->
-    <title>Fleetnostic</title>
+    <title>FleetScore</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/> 
              
@@ -45,8 +45,10 @@
     
     <!-- pbbt section 2 -->
     <div class="basicTextSect mx-auto d-block">
-    <p>A PBBT is a device that can assess vehicle braking capability through the quantitative measure of individual wheel brake forces or overall vehicle brake performance in a controlled test.</p>
-<p>Thanks to our extensive experience in brake testing and developing solutions in transit environments, Fleetnostic is uniquely qualified to provide test equipment, training, and technical support that is second to none. We have a proven track record of keeping our projects on time and within budget.</p>
+    <p>A performance-based brake tester (PBBT) is a machine that assesses the brake performance of a vehicle through direct measurements of the brake forces at each wheel end, axle or for the entire vehicle.  The PBBT measures the slow speed brake force at each wheel, adds up the total vehicle brake force and divides it by the total vehicle weight to determine overall vehicle braking efficiency.  PBBT’s have been used worldwide for decades for both safety inspections and as part of regular preventive maintenance work. </p>
+	
+<p>In the U.S., according to Section 393.52 of the Federal Motor Carrier Safety Regulations, PBBTs that meet the Federal Motor Carrier Safety Administration functional specifications can be used for enforcement of minimum braking performance requirements on commercial motor vehicles.</p>
+<p>Thanks to our extensive experience in brake testing and developing solutions in transit environments, FleetScore is uniquely qualified to provide test equipment, training, and technical support that is second to none. We have a proven track record of keeping our projects on time and within budget.</p>
 <p>
 Our testing and data acquisition software is easy to use and understand. With it, we can serve the needs of engineering departments and upper management, perform daily maintenance, scheduled inspections, and diagnostics. You can trust that we will continually make enhancements based on our customer’s requirements.</p>
 <p>
@@ -86,18 +88,27 @@ Our installation, training, and support personnel includes engineers and experie
     
     <div class="btn comboBtn">
         <p class="font24 green1 text-left marginBottom10">Play Detector</p>
-    <div class="pic200"><a href="pbbt-play-detector.php"><img src="images/button/pbbtplaydetector.jpg" class="img-fluid" alt="PBBT Solution: Play Detector"></a></div>
+    <div class="pic200"><a href="play-detector.php"><img src="images/button/pbbtplaydetector.jpg" class="img-fluid" alt="PBBT Solution: Play Detector"></a></div>
 <div>
-		  <a href="pbbt-play-detector.php">
+		  <a href="play-detector.php">
                 <button class="buttonLearn">View Our Solutions</button>
         </a> </div> 
 </div>
     
     <div class="btn comboBtn">
-        <p class="font24 green1 text-left marginBottom10">Lease / Audit</p>
-    <div class="pic200"><a href="pbbt-lease-audit.php"><img src="images/button/pbbtleaseaudit.jpg" class="img-fluid" alt="PBBT Solution: Lease/Audit"></a></div>
+        <p class="font24 green1 text-left marginBottom10">LINK Software</p>
+    <div class="pic200"><a href="software.php"><img src="images/button/pbbtsoftware.jpg" class="img-fluid" alt="PBBT Solution: LINK Software"></a></div>
 <div>
-		  <a href="pbbt-14200.php">
+		  <a href="software.php">
+                <button class="buttonLearn">View Our Solutions</button>
+        </a> </div> 
+</div>
+    
+    <div class="btn comboBtn">
+        <p class="font24 green1 text-left marginBottom10">Solution Offerings</p>
+    <div class="pic200"><a href="service-equipment.php"><img src="images/button/pbbtleaseaudit.jpg" class="img-fluid" alt="PBBT Solution: Lease/Audit"></a></div>
+<div>
+		  <a href="service-equipment.php">
                 <button class="buttonLearn">View Our Solutions</button>
         </a> </div> 
 </div>

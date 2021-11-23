@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
     <!-- Google analytics goes here-->
-    <title>Fleetnostic</title>
+    <title>FleetScore</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/> 
              
@@ -26,7 +26,7 @@
 <div id="main">  
     
     <!-- Hero -->
-   <div id="placeholderHero" class="ohioHero">	 
+   <div id="absHero" class="ohioHero">	 
   <h1 class="text-center"><span class="font50caps">Air System Expert</span></h1>
     </div>  
     
@@ -47,7 +47,7 @@
     
     <!-- pbbt section 2 -->
     <div class="basicTextSect mx-auto d-block">
-    <p>The LINK Air System Expert is a complete, portable, computer-based system that makes it easy to verify FMVSS/CMVSS 121 air system compliance. A precision accelerometer is used to indicate the first pedal movement. A laptop computer, pressure transducers, digital gage, and a rugged travel case are included.</p>
+    <p>Our Air System Expert is a complete, portable, computer-based system that makes it easy to verify FMVSS/CMVSS 121 air system compliance. A precision accelerometer is used to indicate the first pedal movement. A laptop computer, pressure transducers, digital gage, and a rugged travel case are included.</p>
         </div> 
     
     <div class="bullPic1">
@@ -64,50 +64,43 @@
       <ul>
         <li>Measures leak down</li>
         <li>Performs pressure balance</li>
-        <li>Data acquisition mode diagnoses the air system</li>
-        <li>ABS system diagnosis (optional)</li>
-          <li>Light function (optional)</li>
+        <li>Data acquisition mode</li>
+          <li>Air System Diagnosis</li>
       </ul>
         </div></div>
        
         <div class="bP2">
-           <img src="images/ImgResponsive_Placeholder.png" class="img-fluid" alt="Model 14200 Roller Brake Tester"> 
+           <img src="images/pics/ase-1.jpg" class="img-fluid" alt="FleetScore's Air System Expert is a complete, portable, computer-based system that makes it easy to verify FMVSS/CMVSS 121 air system compliance"> 
           </div>
             
         </div>
         </div> 
-  
+  <!-- pbbt section 3 -->
+<div class="ProductPics">
+<div class="ProductPicsContent mx-auto d-block">
+    <div class="btn">
+      <img src="images/pics/ase-2.jpg" class="img-fluid" alt="Air System Expert software"> </div>
+    </div>
+    </div>
     
     <!-- download form -->
-<div id="placeholderForm" class="dwnldBroch">
+<div id="pbbtAseForm" class="dwnldBroch">
     <div class="dwnldBrochContent mx-auto d-block">
         <h2 class="font42">Download the Brochure
     </h2>
             <div>
-              <form> 
-                  <div class="formThreeCol">
-                  <div class="form-group threeColForm">
-                  <label for="First Name">First Name</label>
-                  <input type="text" class="form-control" id="fleetFirst" placeholder="">
-                  </div>
-                  <div class="form-group threeColForm">
-                  <label for="Last Name">Last Name</label>
-                  <input type="text" class="form-control" id="fleetLast" placeholder="">
-                  </div>
-                <div class="form-group threeColForm">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="fleetEmail" placeholder="">
-                  </div>
-                <div class="form-group oneCol">
-                  <label for="Industry">Industry</label>
-                  <input type="text" class="form-control" id="fleetIndustry" placeholder="">
-                </div></div>
-                  <div id="formSubmit">
-                      <div class="fiveCol">
-                  <button id="fleetSubmit" type="submit" class="btn btn-primary">Submit</button></div></div>
-              </form>
+              <!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "8373891",
+	formId: "38ab21cc-6a5b-4983-a2b8-e0bae0cd102f"
+});
+</script>
             </div>
-            <p class="paddingTop30 blue1">LINK needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.</p>
         </div>
     </div>
     

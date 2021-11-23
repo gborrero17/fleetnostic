@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
     <!-- Google analytics goes here-->
-    <title>Fleetnostic</title>
+    <title>FleetScore</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/> 
              
@@ -26,7 +26,7 @@
 <div id="main">  
     
     <!-- Hero -->
-   <div id="pbbtSolHero" class="ohioHero">	 
+   <div id="pbbt14200Hero" class="ohioHero">	 
   <h1 class="text-center"><span class="font50caps">PBBT<br></span><span class="font42">Model 14200 Roller Brake Tester</span><br></h1>
     </div>  
     
@@ -47,7 +47,7 @@
     
     <!-- pbbt section 2 -->
     <div class="basicTextSect mx-auto d-block">
-    <p>The Model 14200 Roller Brake Tester (also known as a Performance-Based Brake Tester or PBBT) uses two large rollers and one small center roller, one-meter-wide, on each wheel to test vehicles with axle loads up to 20,000 kg. Optional wider rollers and the split sub-frame design allow the user to customize the track width range during installation, allowing for a large variety of wheel tracks. A rugged aluminum enclosure houses large and easy-to-read analog and digital displays of relevant test data.</p>
+    <p>The Model 14200 Roller Brake Tester (also known as a Performance-Based Brake Tester or PBBT) uses two large rollers and one small center roller, one-meter-wide, on each wheel to test vehicles with axle loads up to 44,092 lb . Optional wider rollers and the split sub-frame design allow the user to customize the track width range during installation, allowing for a large variety of wheel tracks. A rugged aluminum enclosure houses large and easy-to-read analog and digital displays of relevant test data.</p>
         </div> 
     
     <div class="bullPic1">
@@ -81,19 +81,21 @@
     <!-- pbbt section 3 -->
 <div class="ProductPics">
 <div class="ProductPicsContent mx-auto d-block">
-    <div class="btn">
-      <img src="images/pics/14200-2.jpg" class="img-fluid" alt="Placeholder image"> </div>
+    <div class="btn prodPic">
+      <img src="images/pics/14200-7.jpg" class="img-fluid" alt="FleetScore Model 14200 Roller Brake Tester"> </div>
+    <div class="btn prodPic">
+      <img src="images/pics/14200-2.jpg" class="img-fluid" alt="In-ground Model 14200 Roller Brake Tester"> </div>
     
-    <div class="btn">
-      <img src="images/pics/14200-3.jpg" class="img-fluid" alt="Placeholder image"> </div>
+    <div class="btn prodPic">
+      <img src="images/pics/14200-3.jpg" class="img-fluid" alt="Performance-Based Brake Tester - Model 14200"> </div>
     
-    <div class="btn">
-      <img src="images/pics/14200-4.jpg" class="img-fluid" alt="Placeholder image"> </div>
+    <div class="btn prodPic">
+      <img src="images/pics/14200-4.jpg" class="img-fluid" alt="Model 14200 Roller Brake Tester for vehicles with axle loads up to 20,000 kg"> </div>
     
-    <div class="btn">
-      <img src="images/pics/14200-5.jpg" class="img-fluid" alt="Placeholder image"> </div> 
-    <div class="btn">
-      <img src="images/pics/14200-6.jpg" class="img-fluid" alt="Placeholder image"> </div> 
+    <div class="btn prodPic">
+      <img src="images/pics/14200-5.jpg" class="img-fluid" alt="Model 14200 - easy-to-read analog and digital displays of relevant test data"> </div> 
+    <div class="btn prodPic">
+      <img src="images/pics/14200-6.jpg" class="img-fluid" alt="Model 14200 - Integrated, universal ABS verification and diagnostic system"> </div>
     
     </div>
     </div>
@@ -104,30 +106,18 @@
         <h2 class="font42">Download the Brochure
     </h2>
             <div>
-              <form> 
-                  <div class="formThreeCol">
-                  <div class="form-group threeColForm">
-                  <label for="First Name">First Name</label>
-                  <input type="text" class="form-control" id="fleetFirst" placeholder="">
-                  </div>
-                  <div class="form-group threeColForm">
-                  <label for="Last Name">Last Name</label>
-                  <input type="text" class="form-control" id="fleetLast" placeholder="">
-                  </div>
-                <div class="form-group threeColForm">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="fleetEmail" placeholder="">
-                  </div>
-                <div class="form-group oneCol">
-                  <label for="Industry">Industry</label>
-                  <input type="text" class="form-control" id="fleetIndustry" placeholder="">
-                </div></div>
-                  <div id="formSubmit">
-                      <div class="fiveCol">
-                  <button id="fleetSubmit" type="submit" class="btn btn-primary">Submit</button></div></div>
-              </form>
+              <!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "8373891",
+	formId: "38ab21cc-6a5b-4983-a2b8-e0bae0cd102f"
+});
+</script>
             </div>
-            <p class="paddingTop30 blue1">LINK needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.</p>
         </div>
     </div>
     

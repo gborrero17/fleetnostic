@@ -9,11 +9,11 @@
 <div id="fleetFoot">
 	
         <div class="paddingTop40">
-<div class="leftCenter767"><img src="images/head-foot/fleetnostic-foot.png" class="img-fluid" alt="Fleetnostic logo"></div>
+<div class="leftCenter767"><a href="index.php"><img src="images/logos/fleetscore-head-logo.png" class="img-fluid" alt="FleetScore logo"></a></div>
       </div>
 			
             <div class="paddingTop20">
-<div class="rightCenter767"><img src="images/head-foot/link-foot.png" class="img-fluid" alt="Link Engineering logo"></div>
+<div class="rightCenter767"><a href="https://www.linkeng.com/" target="_blank"><img src="images/head-foot/link-foot.png" class="img-fluid" alt="Link Engineering logo"></a></div>
 
 		</div>	
 			

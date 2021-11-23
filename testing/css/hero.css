@@ -1,0 +1,44 @@
+#section1Video {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1Content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#coverVideo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 135deg, rgba(17, 68, 106, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    opacity: .7;
+    z-index: -1;
+}
+
+#concaveBorder {
+    margin-top: -75px;
+    margin-bottom: 100px;
+}

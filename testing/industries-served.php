@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
     <!-- Google analytics goes here-->
-    <title>Fleetnostic</title>
+    <title>FleetScore</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/> 
              
@@ -26,7 +26,7 @@
 <div id="main">  
     
     <!-- Hero -->
-   <div id="pbbtSolHero" class="ohioHero">	 
+   <div id="industriesHero" class="ohioHero">	 
   <h1 class="text-center"><span class="font50caps">Industries Served</span><br></h1>
     </div>  
     

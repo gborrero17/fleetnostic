@@ -19,6 +19,7 @@
 <!--<link rel="stylesheet" href="https://use.typekit.net/kie0exc.css">-->
 <link rel="stylesheet" href="css/typekit.css">
 <link rel="stylesheet" href="css/menu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/hero.css" rel="stylesheet" type="text/css">
 
 
 

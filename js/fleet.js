@@ -1,4 +1,5 @@
-var isMobile = false; //initiate as false
+let isMobile = false; //initiate as false
+let clickCounter = 0;
 
 // device detection
 if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) ||
@@ -8,70 +9,86 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
 }
 
 
-window.onload = function(e) {
+window.onload = function (e) {
     /* $(".slider .content").addClass('slide-in'); */
 
-    $('.navbar a').each(function() {
+    $('.navbar a').each(function () {
         if ($(this).attr('href') == location.pathname.slice(location.pathname.lastIndexOf("/") + 1)) {
             $(this).addClass('active');
         }
     })
 
 
-    $('nav .dropdown-toggle').mouseenter(function() {
+    $('nav .dropdown-toggle').mouseenter(function () {
         if ($(window).width() > 750) {
             $(".large-dropdown .dropdown-menu").hide();
             let classArray = $(this).text().toLowerCase().split(" ");
             $(".large-dropdown ." + classArray[classArray.length - 1] + "-menu").show();
             $('.large-dropdown').addClass("open");
         }
-        if ($(window).width() <= 750) {
-            $(".large-dropdown .dropdown-menu").hide();
-            $(this).siblings().removeClass("d-none");
-            $(this).siblings().addClass("toggled-dropdown-open");
-            $(".navbar").css("padding-bottom", "131px");
-        }
+        /*  if ($(window).width() <= 750) {
+             console.log("mosed");
+             $(".large-dropdown .dropdown-menu").hide();
+             $(this).siblings().removeClass("d-none");
+             $(this).siblings().addClass("toggled-dropdown-open");
+             $(".navbar").css("padding-bottom", "131px");
+         } */
         $('.large-dropdown img').prop('src', $(this).attr('img-src'));
-    }).mouseleave(function() {
+    }).mouseleave(function () {
         $(this).siblings().removeClass("toggled-dropdown-open");
     });
 
-    $('.toggled-dropdown').mouseleave(function() {
+
+    $('.toggled-dropdown').mouseleave(function () {
         $(this).addClass("d-none");
         $(".navbar").css("padding-bottom", "0px");
     });
 
-    $('.nav-item:not(.dropdown)').each((function() {
+    $('nav .dropdown-toggle').click(function (e) {
+        if (isMobile) {
+            if (clickCounter < 1) {
+                e.preventDefault();
+                clickCounter++;
+                $(".large-dropdown .dropdown-menu").hide();
+                $(this).siblings().removeClass("d-none");
+                $(this).siblings().addClass("toggled-dropdown-open");
+                $(".navbar").css("padding-bottom", "131px");
+            }
+            console.log(clickCounter);
+        }
+    });
+
+    $('.nav-item:not(.dropdown)').each((function () {
         // console.log($(this));
-        $(this).mouseenter((function() {
+        $(this).mouseenter((function () {
             //  console.log($('.toggled-dropdown'));
-            $('.toggled-dropdown').each((function() {
+            $('.toggled-dropdown').each((function () {
                 $(this).addClass("d-none");
                 $(".navbar").css("padding-bottom", "0px");
             }))
         }))
     }));
 
-    $('.dropdown-menu').mouseleave(function() {
+    $('.dropdown-menu').mouseleave(function () {
 
         $(this).parent().removeClass("open");
     });
 
-    $('nav li:not(.dropdown)').mouseenter(function() {
+    $('nav li:not(.dropdown)').mouseenter(function () {
         $('.dropdown-menu').parent().removeClass("open");
     });
 
-    $('.sub-dropdown-menu a').mouseenter(function() {
+    $('.sub-dropdown-menu a').mouseenter(function () {
         if ($(this).parent().parent().hasClass('open')) {
             $('.large-dropdown img').prop('src', $(this).attr('img-src'));
         }
     })
 
-    $('.sub-dropdown-menu a').click(function(e) {
+    $('.sub-dropdown-menu a').click(function (e) {
         if (!$(this).parent().parent().hasClass('open')) e.preventDefault();
     });
 
-    $('.large-dropdown .dropdown-toggle').mouseenter(function() {
+    $('.large-dropdown .dropdown-toggle').mouseenter(function () {
         $('.large-dropdown .dropdown-toggle').siblings('.sub-dropdown-menu').removeClass('open');
         $('.large-dropdown .dropdown-toggle').siblings('.line').removeClass('selected');
         $('.large-dropdown img').prop('src', $(this).attr('img-src'));
@@ -85,28 +102,28 @@ window.onload = function(e) {
         $(this).siblings('.subtext').addClass('d-inline');
         // $(this).siblings('.line').addClass('selected');
         $(this).parent().siblings('.dropdown').css('pointer-events', 'none');
-    }).mouseleave(function() {
+    }).mouseleave(function () {
         $('.large-dropdown .dropdown').css('pointer-events', 'auto');
         $('.subtext').removeClass('d-inline');
     });
 
-    $(".large-dropdown a.dropdown-toggle").hover(function() {
+    $(".large-dropdown a.dropdown-toggle").hover(function () {
         $(this).parent().siblings("li.dropdown").children("a.dropdown-toggle").addClass('faded');
-    }, function() {
+    }, function () {
         $(this).parent().siblings("li.dropdown").children("a.dropdown-toggle").removeClass('faded');
         $('.large-dropdown .dropdown').css('pointer-events', 'auto');
     });
 
-    $(".large-dropdown .sub-dropdown-menu a").hover(function() {
+    $(".large-dropdown .sub-dropdown-menu a").hover(function () {
         $(this).parent().siblings("li").children("a").addClass('faded');
-    }, function() {
+    }, function () {
         $(this).parent().siblings("li").children("a").removeClass('faded');
     });
 
-    $('.large-dropdown .sub-dropdown-menu').mouseenter(function() {
+    $('.large-dropdown .sub-dropdown-menu').mouseenter(function () {
         $(this).parent().siblings('.dropdown').css('pointer-events', 'none');
         $(this).prop('hovered', true);
-    }).mouseleave(function() {
+    }).mouseleave(function () {
         $('.large-dropdown .dropdown').css('pointer-events', 'auto');
         $(this).removeClass('open');
         $(this).prop('hovered', false);

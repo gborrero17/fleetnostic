@@ -1,5 +1,7 @@
 let isMobile = false; //initiate as false
 let clickCounter = 0;
+let compareToMe1, compareToMe2;
+
 
 // device detection
 if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) ||
@@ -46,15 +48,20 @@ window.onload = function (e) {
 
     $('nav .dropdown-toggle').click(function (e) {
         if (isMobile) {
-            if (clickCounter < 1) {
+            compareToMe1 = $(this).attr('id');
+            console.log('before loop', compareToMe1);
+            if ((clickCounter < 1) && (compareToMe2 |= compareToMe1)) {
+                compareToMe2 = $(this).attr('id');
+                console.log('in loop', compareToMe2);
                 e.preventDefault();
                 clickCounter++;
+
                 $(".large-dropdown .dropdown-menu").hide();
                 $(this).siblings().removeClass("d-none");
                 $(this).siblings().addClass("toggled-dropdown-open");
                 $(".navbar").css("padding-bottom", "131px");
             }
-            console.log(clickCounter);
+            console.log('after loop', compareToMe1);
         }
     });
 

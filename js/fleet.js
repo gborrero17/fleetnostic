@@ -46,6 +46,7 @@ window.onload = function (e) {
         $(".navbar").css("padding-bottom", "0px");
     });
 
+    // giselle look here...
     $('nav .dropdown-toggle').click(function (e) {
         if (isMobile) {
             compareToMe1 = $(this).attr('id');

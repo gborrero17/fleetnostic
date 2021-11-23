@@ -49,19 +49,43 @@ window.onload = function (e) {
     // giselle look here...
     $('nav .dropdown-toggle').click(function (e) {
         if (isMobile) {
-            compareToMe1 = $(this).attr('id');
-            console.log('before loop', compareToMe1);
-            if ((clickCounter < 1) && (compareToMe2 |= compareToMe1)) {
-                compareToMe2 = $(this).attr('id');
-                console.log('in loop', compareToMe2);
+
+              
+            //  console.log('before loop', compareToMe1);
+            if  ($(this).attr('id') != compareToMe1){
+                console.log("im in the loop compare");
+                clickCounter = 0;
+               // compareToMe1 = $(this).attr('id');
+
+            }else{console.log("skip me")
+            clickCounter++;
+        }
+
+            if (clickCounter < 1)   {
+           // if (clickCounter < 1 ||) {
+                // compareToMe2 = $(this).attr('id');
+                // console.log('in loop', compareToMe2);
                 e.preventDefault();
-                clickCounter++;
+                compareToMe1 = $(this).attr('id');
+
 
                 $(".large-dropdown .dropdown-menu").hide();
                 $(this).siblings().removeClass("d-none");
                 $(this).siblings().addClass("toggled-dropdown-open");
                 $(".navbar").css("padding-bottom", "131px");
+                console.log("giselle here if loop");
+                clickCounter++;
             }
+            /*  else if  ((clickCounter < 1) && (compareToMe2 |= compareToMe1)) {
+                 clickCounter = 0;
+             }
+             else {
+                 clickCounter = 0;
+                 e.preventDefault();
+                 console.log("giselle here else loop");
+               
+               
+             } */
             console.log('after loop', compareToMe1);
         }
     });

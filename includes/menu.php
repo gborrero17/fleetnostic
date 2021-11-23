@@ -43,7 +43,7 @@
           </li>
 
           <li class="nav-item dropdown " data-toggle="collapse" data-target="#navbar-collapse">
-            <a id="served-dropdown" img-src="images/PBBT_011.jpg" href="industries-served.php" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">INDUSTRIES SERVED</a>
+            <a id="served-dropdown" img-src="images/PBBT_011.jpg" href="#" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">INDUSTRIES SERVED</a>
             <ul class="toggled-dropdown d-none">
               <li> <a class="dropdown nav-link" href="enforcement-roadside.php">ENFORCEMENT/ROADSIDE</a> </li>
               <li> <a class="dropdown nav-link" href="fleet.php">FLEET</a> </li>
